@@ -59,7 +59,8 @@ public class MainProj {
                  count=s.nextInt();
                  bill4+=count*price;
 				 break;
-		case 5: System.exit(0);
+		case 5:System.out.println("order is cancelled");  
+		       System.exit(0);
 		case 6:System.out.println("Insert the Amount ");
 		        amount=s.nextInt();
 				while(amount<bill)
